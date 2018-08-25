@@ -1,0 +1,27 @@
+﻿빌드 시작: 2016-02-29 PM 7:44:11
+     1>2 노드의 "C:\Users\승진\Documents\Visual Studio 2013\Projects\C_Powerupgrade_Tetris\C_Powerupgrade_Tetris\C_Powerupgrade_Tetris.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BlockStageControl.cpp GameBoard.cpp GameData.cpp KeyCurControl.cpp TetrisMain.cpp TetrisMenu.cpp
+         BlockStageControl.cpp
+         GameBoard.cpp
+     1>GameBoard.cpp(20): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)' : 인수 1을(를) 'const char [23]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>GameBoard.cpp(25): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)' : 인수 1을(를) 'const char [30]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>GameBoard.cpp(118): error C2664: 'MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)' : 인수 1을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+         GameData.cpp
+     1>GameData.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>GameData.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+         KeyCurControl.cpp
+         TetrisMain.cpp
+     1>TetrisMain.cpp(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+         TetrisMenu.cpp
+     1>"C:\Users\승진\Documents\Visual Studio 2013\Projects\C_Powerupgrade_Tetris\C_Powerupgrade_Tetris\C_Powerupgrade_Tetris.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:02.63
